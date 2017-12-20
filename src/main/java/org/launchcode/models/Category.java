@@ -1,4 +1,4 @@
-package org.launchcode.models.data;
+package org.launchcode.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -19,9 +19,9 @@ public class Category {
     @NotNull
     @Size (min=3, max=15)
 
-    private string name;
+    private String name;
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 
@@ -31,7 +31,7 @@ public class Category {
 
     public Category (){
     }
-    public Category(String name{
+    public Category(String name){
         this.name=name;
-    })
-}
+
+    }}
