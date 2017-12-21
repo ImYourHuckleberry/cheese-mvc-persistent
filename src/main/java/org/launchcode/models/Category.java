@@ -17,7 +17,7 @@ public class Category {
     }
 
     @NotNull
-    @Size (min=3, max=15)
+    @Size (min=3, max=25)
 
     private String name;
 
